@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+xgboost
+shap
+scipy
+joblib
+
+# Optional (only if you want torch seeding in utils.py)
+# torch

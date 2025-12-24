@@ -1,0 +1,48 @@
+{
+  "split": "GroupShuffleSplit by formula (test_size=0.20)",
+  "features": [
+    "MagpieData maximum GSvolume_pa",
+    "MagpieData maximum NdValence",
+    "MagpieData mean MendeleevNumber",
+    "MagpieData minimum Electronegativity",
+    "MagpieData mean NUnfilled",
+    "MagpieData mean MeltingT",
+    "MagpieData mean Column",
+    "MagpieData range SpaceGroupNumber"
+  ],
+  "n_rows": 7462,
+  "n_features": 8,
+  "train_R2": 0.9392061003608199,
+  "train_MAE": 11.124505877227456,
+  "train_RMSE": 16.20114657137445,
+  "test_R2": 0.748529549341285,
+  "test_MAE": 20.904430426960655,
+  "test_RMSE": 33.39223178513211,
+  "cv3_grouped_R2_mean": 0.7673635821572807,
+  "cv3_grouped_R2_std": 0.006991553208665957,
+  "cv3_grouped_MAE_mean": 20.179057656216074,
+  "cv3_grouped_MAE_std": 0.390879104576371,
+  "used_best_params": true,
+  "params": {
+    "n_estimators": 600,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "subsample": 1.0,
+    "colsample_bytree": 0.65,
+    "reg_lambda": 1.0,
+    "reg_alpha": 1.0,
+    "tree_method": "hist",
+    "n_jobs": -1,
+    "random_state": 6
+  },
+  "software": {
+    "python": "3.12.3",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.1",
+    "matplotlib": "3.8.4",
+    "scikit_learn": "1.7.1",
+    "xgboost": "3.0.4",
+    "shap": "0.48.0"
+  }
+}
