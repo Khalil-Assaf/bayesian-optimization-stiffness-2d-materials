@@ -1,4 +1,4 @@
-This repo is the code I used for my paper "Prioritizing 2D Materials by In-Plane Stiffness Using Composition-Only Machine Learning and DistanceConstrained Bayesian Optimization" about:
+This repo is the code I used for my paper "Prioritizing 2D Materials by In-Plane Stiffness Using Composition-Only Machine Learning and Distance-Constrained Bayesian Optimization" about:
 1-training an XGBoost model to predict stiffness of 2D materials (from composition features)
 2-running Bayesian Optimization (BO) to propose “good” points
 3-BUT with a constraint: don’t go too far from real materials (distance constraint), then map back to nearest real material (kNN idea)
